@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+       <div id="tete">
+        <h2> GANDONOU <span>Ablo Romain</span></h2>
+
+        <nav>
+            <ul>
+                <li><a href="#acceuil"> Acceuil </a></li>
+                <li><a href="#apropos"> A propos </a></li>
+                <li><a href="#projets"> Projets </a></li>
+                <li><a href="#competences"> Compétences </a></li>
+                <li><a href="#contacts"> Contacts </a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="acceuil">
+            <h2>BIENVENUE DANS MON UNIVERS</h2>
+            <p>Je suis <span>Ablo Romain</span>, developpeur front-end et designer. </p>
+          <button><a href="#projets">Voir mes projets</a></button>
+        </section>
+        <section id="apropos">
+            <h2>A propos</h2>
+            <div class="container">
+           <div class="fils">
+             <p> Je suis <span>Ablo Romain</span>, étudiant en licence 3 de Mathématiques
+            Informatique<br> et Applicationsoption Mathématiques Fondamentale à la Faculté 
+        des Sciences<br> et Techniques de l'Université d'Abomey-Calavi du Bénin. Passionné par 
+     <br>   l'informatique et surtout la cybersécurité, j'ai décidé de me lancer dans le <br>
+    développement web après les cours de programmation vue en salle histoire<br> d'avoir 
+les bases néccéssaire pour évoluer dans <br>le monde de la cybersécurité.
+         Ce parcours nouveau de developpeur me permet aussi de prendre<br> le rôle d'un 
+            designer et gestionnaire de projet.
+         </p> 
+         <button id="cv"><a href="Romain.pdf" download="">Cliquer pour télécharger mon CV</a></button>
+         </div>
+         <div class="fils" >
+            <img src="romain.JPG" width="200px" height="200px">
+         </div>
+         </div>
+        </section>
+        <section id="projets">
+            
+            <h2>Mes Projets</h2>
+            <div class="container">
+                <div class="fils" id="un">
+                   <p> J'ai réalisé un mini jeux interactif à jouer dans la console en <br>
+                    utilisant le langage C.<br> J'ai réalisé aussi un mini lading page</p>
+                    <button><a href="https://romain-gandonou.github.io/LadingPage/">Voir</a></button>
+                </div>
+                <div class="fils" id="deux">
+                  <p>  J'ai réalisé l'interface d'une plateforme de gestion des électeurs. <br> 
+                    Avec du HTML et CSS.
+                    Aussi j'ai réalisé un algorithme pour donner le résultat numérique 
+                    des<br> solutions d'une équation différentielle d'ordre n avec second menbre , cela <br>
+                    a été réalisé avec SCILAB.</p>
+                </div>
+                <div class="fils" id="trois" >
+                  <p>  J'ai réalisé un mini programme qui prends une matrice et retoune sa <br>transposée, 
+                    son déterminant, multiplie par une autre aussi. Tout cela avec <br>le langage C.</p>
+                </div>
+            </div>
+
+        </section>
+        <section id="competences">
+            <h2>Mes Compétences</h2>
+            <div id="comp">
+            <div class="container">
+              <div class="fils">
+                <ul>
+                    <li>Gestion de Projets</li>
+                    <li>Designer</li>
+                    <li>Résolution de problème</li>
+                    <li>Adaptabilité</li>
+                </ul>
+              </div>
+              <div class="fils">
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                </ul>
+              </div>
+              <div class="fils">
+                <ul>
+                    <li>C</li>
+                    <li>SCILAB</li>
+                    <li>My SQL</li>
+                    <li>LaTeX</li>
+                </ul>
+              </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <p> Vous avez une idée en tête ?<br> Même si cela n'est pas encore clair, <br>
+        conatacter moi et vous verrez mieux <br>pour la conception et la réalisation.</p>
+        <form id="formulaire" action="https://api.web3forms.com/submit" method="POST">
+           <input type="hidden" name="access_key" value="d5c1f5e1-1527-4ddd-9378-6986cdf551e5">
+
+            <label for="prenom"></label>
+            <input type="text" id="prenom" name="prenom" placeholder="votre prénom" required>
+            <label for="nom"></label>
+            <input type="text" id="nom" name="nom" placeholder="votre nom" required><br>
+            <label for="mail"></label>
+            <input type="email" id="mail" name="mail" placeholder="votre email" required> <br>
+            <label for="titre"></label>
+            <input type="text" id="titre" name="titre" placeholder="mettez le titre de votre idée ici"><br>
+            <textarea> </textarea><br>
+            <button id="bout">Envoyer</button>
+            
+        </form>
+    </footer>
+</body>
+</html>
